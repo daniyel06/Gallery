@@ -23,6 +23,72 @@ Validate the HTML and CSS code.
 Publish the website in the given URL.
 
 # PROGRAM :
+```
+index.html
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Interactive Photo Gallery</h1>
+    <div class="container">
+      <div class="gallery">
+        <img class="preview" src="1.3.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="1.2.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="1.4.jpg" onmouseover="upDate(this)" onmouseout="unDo()">      
+        <img class="preview"  src="1.5.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="1.1.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+      </div>
+      <div id="image">"Hover an image below to display here"</div>
+    </div>
+  </body>
+  
+<script src="indec.js"></script>
+
+</html>
+
+```
+```
+style.css
+
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Interactive Photo Gallery</title>
+  <link rel="stylesheet" href="style.css">
+</head>
+
+<body>
+    <h1>Interactive Photo Gallery</h1>
+    <div class="container">
+      <div class="gallery">
+        <img class="preview" src="1.3.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="1.2.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="1.4.jpg" onmouseover="upDate(this)" onmouseout="unDo()">      
+        <img class="preview"  src="1.5.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+        <img class="preview"  src="1.1.jpg" onmouseover="upDate(this)" onmouseout="unDo()">
+      </div>
+      <div id="image">"Hover an image below to display here"</div>
+    </div>
+  </body>
+  
+<script src="indec.js"></script>
+
+</html>
+```
 # OUTPUT:
+![alt text](<Screenshot 2024-12-12 180500.png>)
+![alt text](<Screenshot 2024-12-12 180507.png>)
+![alt text](<Screenshot 2024-12-12 180525.png>)
 # RESULT:
 The program for designing an interactive image gallery using HTML, CSS and JavaScript is executed successfully.
